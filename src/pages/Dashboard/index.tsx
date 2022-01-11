@@ -60,9 +60,9 @@ const Dashboard = ({ setActivitys, activitys }: DashboardInterface): JSX.Element
             <Container>
                 <h3>Data de Início</h3>
                 <Input
-                    required
                     type="date"
                     placeholder="Data de Início"
+                    required
                     id="initialDate"
                     value={initialDate}
                     onChange={(e) => setInitialDate(e.target.value)}
@@ -71,26 +71,26 @@ const Dashboard = ({ setActivitys, activitys }: DashboardInterface): JSX.Element
             <Container>
                 <h3>Data de Término</h3>
                 <Input
-                    required
                     type="date"
                     placeholder="Data de Término"
+                    required
                     id="finalDate"
                     value={finalDate}
                     onChange={(e) => setFinalDate(e.target.value)}
                 />
                 <h3>Horário Inicio</h3>
                 <Input
-                    required
                     type="time"
                     placeholder="Horário Início"
+                    required
                     id="finalHour"
                     value={initialHour}
                     onChange={(e) => setInitialHour(e.target.value)}
                 /><h3>Horário Término</h3>
                 <Input
-                    required
                     type="time"
                     placeholder="Horário Término"
+                    required
                     id="finalHour"
                     value={finalHour}
                     onChange={(e) => setFinalHour(e.target.value)}
