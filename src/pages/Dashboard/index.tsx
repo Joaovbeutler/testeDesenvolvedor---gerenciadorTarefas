@@ -36,7 +36,7 @@ const Dashboard = ({ setActivitys, activitys }: DashboardInterface): JSX.Element
         })
         setActivitys(getActivitys)
         let newActivitys = JSON.stringify({ activitys })
-        localStorage.setItem('@teste-nuvoni:info', newActivitys)
+        localStorage.setItem('@gerenciador-atividades-teste.info', newActivitys)
         alert('Adicionado com Sucesso')
     }
 
