@@ -30,7 +30,7 @@ const Hystoric = ({activitys}: any): JSX.Element => {
                 <Input
                     required
                     type="text"
-                    placeholder="Horas Gastas"
+                    placeholder="Horas Utilizadas"
                     id="initialDateHour"
                     value={parseFloat(e.finalHour) - parseFloat(e.initialHour)}
                 />
