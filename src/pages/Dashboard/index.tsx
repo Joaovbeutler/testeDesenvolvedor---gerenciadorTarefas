@@ -61,7 +61,7 @@ const Dashboard = ({ setActivitys, activitys }: DashboardInterface): JSX.Element
                 <h3>Data de Início</h3>
                 <Input
                     required
-                    type="datetime"
+                    type="date"
                     placeholder="Data de Início"
                     id="initialDate"
                     value={initialDate}
@@ -72,7 +72,7 @@ const Dashboard = ({ setActivitys, activitys }: DashboardInterface): JSX.Element
                 <h3>Data de Término</h3>
                 <Input
                     required
-                    type="datetime"
+                    type="date"
                     placeholder="Data de Término"
                     id="finalDate"
                     value={finalDate}
